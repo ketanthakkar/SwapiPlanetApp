@@ -1,0 +1,33 @@
+mat-toolbar {
+    background: cadetblue;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #976C04;
+    display: flex;
+    justify-content: space-between;
+}
+
+mat-icon {
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.title {
+    color: rgb(240,240,240);
+}
+
+.search-text {
+    border: none;
+    padding: 5px 10px;
+    width: 200px;
+    background: no-repeat;
+    border-bottom: 1px solid;
+    outline: none;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+::placeholder { 
+    color: white;
+    opacity: 0.4; 
+}

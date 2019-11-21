@@ -1,0 +1,42 @@
+<div class="detail-container">
+    <ngx-spinner></ngx-spinner>
+    <div class="planet-detail" *ngIf="planet">
+        <header class="planet-title">
+            {{planet.name}}
+        </header>
+        <main>
+            <div class="planet-data">
+                <span class="planet-character">Rotation Period</span>
+                <span class="planet-character_value">{{planet.rotation_period}}</span>
+            </div>
+            <div class="planet-data">
+                <span class="planet-character">Orbital Period</span>
+                <span class="planet-character_value">{{planet.orbital_period}}</span>
+            </div>
+            <div class="planet-data">
+                <span class="planet-character">Diameter</span>
+                <span class="planet-character_value">{{planet.diameter}}</span>
+            </div>
+            <div class="planet-data">
+                <span class="planet-character">Climate</span>
+                <span class="planet-character_value">{{planet.climate}}</span>
+            </div>
+            <div class="planet-data">
+                <span class="planet-character">Gravity</span>
+                <span class="planet-character_value">{{planet.gravity}}</span>
+            </div>
+            <div class="planet-data">
+                <span class="planet-character">Terrain</span>
+                <span class="planet-character_value">{{planet.terrain}}</span>
+            </div>
+            <div class="planet-data">
+                <span class="planet-character">Surface Water</span>
+                <span class="planet-character_value">{{planet.surface_water}}</span>
+            </div>
+            <div class="planet-data">
+                <span class="planet-character">Population</span>
+                <span class="planet-character_value">{{planet.population}}</span>
+            </div>
+        </main>
+    </div>
+</div>

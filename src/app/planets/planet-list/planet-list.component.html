@@ -1,0 +1,15 @@
+<section>
+    <ngx-spinner></ngx-spinner>
+  <mat-grid-list cols="3" rowHeight="150px" [gutterSize]="'10px'">
+    <mat-grid-tile
+      *ngFor="let planet of planets"
+      (click)="getDetail(planet)">
+            {{planet.name}}
+    </mat-grid-tile>
+  </mat-grid-list>
+  <mat-paginator *ngIf="showPagination" 
+              [length]="totalPlanets"
+              [pageSize]="10"
+              (page)="pageEvent = getPlanetData($event)">
+  </mat-paginator>
+</section>

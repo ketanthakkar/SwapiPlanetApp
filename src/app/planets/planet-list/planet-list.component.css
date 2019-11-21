@@ -1,0 +1,8 @@
+mat-grid-tile {
+    background-color: rgba(245, 245, 240, 0.5);
+    cursor: pointer;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+}
