@@ -7,9 +7,10 @@ mat-toolbar {
     justify-content: space-between;
 }
 
-mat-icon {
+.back-icon {
     margin-right: 1rem;
     cursor: pointer;
+    color: white;
 }
 
 .title {
